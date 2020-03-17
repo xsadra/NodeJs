@@ -2,4 +2,10 @@ console.log('from: Utils.js');
 
 const myName = 'Sadra B'
 
-module.exports = myName
+
+const add = function (a, b) {
+    return a + b    
+}
+
+
+module.exports = add
