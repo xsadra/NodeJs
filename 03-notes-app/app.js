@@ -9,4 +9,4 @@ console.log(notes);
 // console.log(validator.isEmail('info@sadra.at'))
 // console.log(validator.isURL('sadra.at'))
  
-console.log(chalk.green('Hello world!'));
+console.log(chalk.green.bold.bgWhite.inverse('success!'));
